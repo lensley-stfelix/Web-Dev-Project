@@ -1,8 +1,11 @@
 {
-  "scripts": {
-    "start": "servor --reload"
-  },
-  "dependencies": {
-    "servor": "^4.0.2"
+    "name": "abc-fitness-studio",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "start": "vite --host 0.0.0.0"
+    },
+    "devDependencies": {
+      "vite": "^6.0.0"
+    }
   }
-}
